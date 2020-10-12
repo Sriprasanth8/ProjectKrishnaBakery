@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Condiment&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.jumbotron {
+    height: 50vh;
+    padding:70px 0 70px 0;
+    margin:0px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+.companyname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450%;
+    color: #C69963;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Condiment', cursive;
+}
+.navbar-light {
+    background: white;
+}
+.navbar button {
+    border: 0;
+    color: black;
+    background: transparent;
+}
+.navbar button:hover {
+    border: 0;
+    color: black;
+    background: transparent;
+}
+.carousel {
+    height: 95vh;
+}
+.carousel-inner, .carousel-item img {
+    height: 95vh;
+}
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+.textcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobileview1 {
+    display: none;
+}
+.breadcrumb{
+    background: whitesmoke;
+}
+.breadcrumb-item a{
+    color: rgba(16,29,44,.95);
+}
+.dishd {
+    margin: 0;
+    padding: 0;
+}
+.dishd button{
+    width: 100%;
+    border-radius: 2px;
+}
+.comment {
+    padding: 0;
+}
+.fa-star {
+    color: orange;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+.btn-social-icon {
+    background: transparent;
+    color: black;
+    border-radius: 0;
+    border: 0;
+    margin-right: 10px;
+}
+.footer{
+    background: white;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: floralwhite;
+}
+
+.footer address, a, p {
+    color: black;
+}
+@media (max-width: 450px) {
+    .companyname {
+        height: 250%;
+        font-weight: 200;
+    }
+}
+@media (max-width: 767px) {
+    .textcol {
+        margin: 30px 20px;
+    }
+    .mobileview1 {
+        display: block;
+    }
+    .mobileview2 {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .companyname {
+        height: 800%;
+        font-weight: 200;
+    }
+}
+@media (width: 1024px) {
+    .jumbotron {
+        height: 50vh;
+    }
+    .companyname {
+        height: 1100%;
+        font-weight: 200;
+    }
+}
+@media (width: 320px) {
+    .mobileview1 {
+        display: block;
+    }
+    .mobileview2 {
+        display: none;
+    }
+    .companyname {
+        height: 150%;
+        font-weight: 200;
+    }
+}
