@@ -9,7 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Mobile-View
 
 ![Mobile-View](/screencapture-localhost-3000-home-2020-09-06-20_41_47.png)
-![Mobile-View](/screencapture-localhost-3000-menu-2020-09-06-20_42_12.png)
 ![Mobile-View](/screencapture-localhost-3000-menu-3-2020-09-06-20_42_34.png)
 ![Mobile-View](/screencapture-localhost-3000-contact-2020-09-06-20_42_57.png)
 
