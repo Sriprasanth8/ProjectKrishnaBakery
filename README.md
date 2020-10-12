@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Desktop-View
+
+![Desktop-View](images/screencapture-localhost-3000-home-2020-09-06-20_40_45.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
