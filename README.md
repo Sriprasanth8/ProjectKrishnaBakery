@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Desktop-View
 
-![Desktop-View](/screencapture-localhost-3000-home-2020-09-06-20_40_45.png | width=100)
+![Desktop-View](/screencapture-localhost-3000-home-2020-09-06-20_40_45.png =250x250)
 ![Desktop-View](/screencapture-localhost-3000-home-2020-09-06-20_40_45.png)
 ![Desktop-View](/screencapture-localhost-3000-home-2020-09-06-20_40_45.png)
 
